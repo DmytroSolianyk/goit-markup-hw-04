@@ -233,7 +233,6 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .skills-item-text {
@@ -253,16 +252,18 @@ img {
 }
 
 .skills-item-image {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
   background-color: #f4f4fd;
-  padding: 24px 0;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
 .skills-icon {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 /** ============================== */
 
