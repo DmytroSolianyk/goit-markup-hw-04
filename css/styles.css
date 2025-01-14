@@ -180,6 +180,7 @@ img {
   background-repeat: no-repeat;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -322,6 +323,22 @@ img {
   margin-top: 8px;
 }
 
+.team-social-link {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-link > .icon {
+  fill: #fff;
+  width: 16px;
+  height: 16px;
+}
+
 /** ============================== */
 
 /** ==============PORTFOLIO================ */
@@ -410,8 +427,8 @@ img {
   display: flex;
 }
 
-.footer-social {
-  margin-left: 120px;
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-social-title {
@@ -420,6 +437,28 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+}
+
+.footer-social-link {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-link > .icon {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-item-social-links {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
 }
 
 /** ============================== */
