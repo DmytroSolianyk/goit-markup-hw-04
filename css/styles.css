@@ -370,10 +370,6 @@ img {
 }
 
 .portfolio-item-content {
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  padding: 32px 16px;
 }
 
 .portfolio-item:hover {
@@ -466,16 +462,11 @@ img {
 .footer-item-social-links {
   display: flex;
   gap: 16px;
-  align-items: baseline;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-social {
-  align-items: baseline;
 }
 
 /** ============================== */
